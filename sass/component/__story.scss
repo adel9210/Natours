@@ -1,0 +1,14 @@
+.story {
+    width: 75%;
+    margin: 0 auto;
+    padding: 6rem;
+    box-shadow: 0 1.2rem 6rem rgba($color-black, .1);
+
+    &__shape {
+        width: 15rem;
+        height: 15rem;
+        background-color: steelblue;
+        shape-outside: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%)
+    }
+}
